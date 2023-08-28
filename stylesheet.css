@@ -1,0 +1,107 @@
+/* Your CSS styles here */
+
+/* Global styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* About Section */
+#about {
+  display: flex;
+  padding: 60px 0;
+}
+
+.about-left {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.about-left img {
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-right {
+  flex: 2;
+  padding: 0 20px;
+}
+
+/* Skills Section */
+#skills ul {
+  list-style: none;
+}
+
+/* Projects Section */
+#projects .project {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.project-image {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.project-image img {
+  max-width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-info {
+  flex: 2;
+  padding: 0 20px;
+}
+
+/* Resume Section */
+#resume a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Contact Section */
+#contact p {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+}
